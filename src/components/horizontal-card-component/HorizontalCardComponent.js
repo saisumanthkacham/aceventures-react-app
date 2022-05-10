@@ -21,7 +21,7 @@ export default function HorizontalCardComponent()
                  </div>
              </div>
              <img src={projectImg} alt="project image" class="project-image"></img>
-         
+             <div className="Horizontal-card-white-space"></div>
         </div>
     )
 }

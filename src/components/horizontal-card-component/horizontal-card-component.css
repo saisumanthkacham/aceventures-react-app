@@ -5,6 +5,7 @@
     color:white;
     overflow: hidden;
   
+  
 }
 .horizontal-card-content{
   padding:1.2rem;
@@ -37,4 +38,8 @@
 .project-image{
   height: 25rem;
     
+}
+.Horizontal-card-white-space{
+  height:4rem;
+  background-color: white;
 }
