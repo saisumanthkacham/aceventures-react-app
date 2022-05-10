@@ -1,20 +1,21 @@
 import "../vertical-card-component/vertical-card-component.css"
-import aashayaImg from  "../../images/aashaya-banner.png"
 
 
-export default function VerticalCardComponent()
+
+export default function VerticalCardComponent(props)
 {
     return(
         
         <div className="vertical-card-container">
-                          <img src={aashayaImg} alt="project image" class="project-image"/>
+                          <img src={props.img} alt="project image" class="project-image"/>
                 <div className="verical-card-content">
             
                       <div className="vertical-card-title" >
-                        AASHAYA
+                       {props.title}
                       </div>
                       <div className="vertical-card-description" >
-                        Commercial Development on Hyderabad-Warangal Highway
+                        {props.description}
+                       
                       </div>
                 </div>
    

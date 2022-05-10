@@ -65,4 +65,6 @@ font-weight: bold;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  border:1px solid var(--secoundary-01);
+  margin: 1rem 0;
 }
