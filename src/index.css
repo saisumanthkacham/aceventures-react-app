@@ -1,5 +1,8 @@
 
 
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -31,6 +34,8 @@ body {
   --secoundary-03: #b58761;
   --secoundary-04: #9f7356;
   --secoundary-05: #DEB083;
+  --secoundary-06: #e2b38580;;
   --footer-bg: #E2B385;
   --dark-gray:#838383;
+
 }
