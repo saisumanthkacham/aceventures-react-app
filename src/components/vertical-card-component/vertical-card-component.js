@@ -7,7 +7,7 @@ export default function VerticalCardComponent()
     return(
         
         <div className="vertical-card-container">
-                          <img src={aashayaImg} alt="project image" class="project-image"></img>
+                          <img src={aashayaImg} alt="project image" class="project-image"/>
                 <div className="verical-card-content">
             
                       <div className="vertical-card-title" >

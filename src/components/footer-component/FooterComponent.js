@@ -33,7 +33,7 @@ return(
        <div className="footer-subheading">ABOUT US</div>
        <div className="footer-copyright">
        <div className="footer-subheading2">Copyright</div>
-       <div>All right reserved to Ace Ventures india Pvt Ltd</div>
+       <div>All right reserved to xxx ventures</div>
        </div>
      </div>
      </div>

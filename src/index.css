@@ -44,3 +44,25 @@ body {
   font-weight: bold;
   font-size: 3rem;
 }
+
+.secoundary-highlight{
+  color:var(--secoundary-01);
+}
+.bold-txt{
+font-weight: bold;
+}
+.font-2{
+  font-size:2rem;
+}
+.secoundary-btn{
+  background-color: var(--secoundary-01);
+  color:var(--primary-01);
+  display:flex;
+  gap:1rem;
+  padding:1rem 2rem;
+  border-radius: 2rem;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

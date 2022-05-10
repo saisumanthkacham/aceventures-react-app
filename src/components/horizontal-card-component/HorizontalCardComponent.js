@@ -20,7 +20,7 @@ export default function HorizontalCardComponent()
                      <FontAwesomeIcon icon={faArrowRightLong} className="card-right-arrow"></FontAwesomeIcon>
                  </div>
              </div>
-             <img src={projectImg} alt="project image" class="project-image"></img>
+             <img src={projectImg} alt="project image" class="project-image"/>
              <div className="Horizontal-card-white-space"></div>
         </div>
     )
