@@ -1,0 +1,40 @@
+
+
+.horizontal-card-container{
+    background-color: var(--primary-01);
+    color:white;
+    overflow: hidden;
+  
+}
+.horizontal-card-content{
+  padding:1.2rem;
+  padding-top:2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  gap:0.8rem;
+}
+.horizontal-card-qoute{
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.horizontal-card-title{
+  font-size: 2.5rem;
+  color:var(--secoundary-05);
+}
+
+
+.horizontal-card-location-container{
+  display:flex;
+  gap:1rem;
+  align-items: center;
+}
+
+.card-right-arrow{
+  color:var(--secoundary-01);
+}
+.project-image{
+  height: 25rem;
+    
+}
