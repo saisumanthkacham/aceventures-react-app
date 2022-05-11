@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/aceventures-react-app/static/css/main.a096325d.css",
+    "main.js": "/aceventures-react-app/static/js/main.20f214aa.js",
+    "static/js/787.9c313ed3.chunk.js": "/aceventures-react-app/static/js/787.9c313ed3.chunk.js",
+    "static/media/ajanta-banner.webp": "/aceventures-react-app/static/media/ajanta-banner.eef77e827f44811a0e6c.webp",
+    "static/media/project-banner-final.webp": "/aceventures-react-app/static/media/project-banner-final.ff2806f5a84633209b70.webp",
+    "static/media/amura-banner.png": "/aceventures-react-app/static/media/amura-banner.86042cd3030efe93df0a.png",
+    "static/media/aashaya-banner.png": "/aceventures-react-app/static/media/aashaya-banner.3b88f05111fa32b1c56f.png",
+    "static/media/jp-mall-banner.png.webp": "/aceventures-react-app/static/media/jp-mall-banner.png.8dc82a8af48f953a7ae7.webp",
+    "static/media/logo-aceventure.svg": "/aceventures-react-app/static/media/logo-aceventure.c39728a31734f33bf69971dabcab93fc.svg",
+    "static/media/header-logo.svg": "/aceventures-react-app/static/media/header-logo.775a2b542dced013c0e7ff953b176e70.svg",
+    "index.html": "/aceventures-react-app/index.html",
+    "main.a096325d.css.map": "/aceventures-react-app/static/css/main.a096325d.css.map",
+    "main.20f214aa.js.map": "/aceventures-react-app/static/js/main.20f214aa.js.map",
+    "787.9c313ed3.chunk.js.map": "/aceventures-react-app/static/js/787.9c313ed3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a096325d.css",
+    "static/js/main.20f214aa.js"
+  ]
+}
