@@ -10,11 +10,11 @@ export default function HomePageMainComponent() {
                 <div className="secoundary-highlight bold-txt font-2"> Awesome Raa! </div>{" "}
                 <div className="home-page-main-description">
                     Awsome 2 BHK Smart Homes.{" "}
-                    <span className="secoundary-highlight"> Starting @ 42.75 Laks Only / - </span>{" "}
-                    Near infosys Pocharam.{" "}
+                    Starting @ 42.75 Laks Only / - 
+                    Near infosys Pocharam
                 </div>{" "}
                 <button className="secoundary-btn">
-                    Explore <FontAwesomeIcon icon={faArrowRightLong}> </FontAwesomeIcon>{" "}
+                    <div class="cta-btn-txt">Explore</div> <FontAwesomeIcon icon={faArrowRightLong}> </FontAwesomeIcon>{" "}
                 </button>{" "}
             </div>{" "}
             <img src={amuraImg} alt="amura image" className="amura-img" />

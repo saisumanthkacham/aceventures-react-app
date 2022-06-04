@@ -15,7 +15,7 @@
 }
 
 .header-right-icons-container{
-    color:var(--secoundary-01);
+    
     display:flex;
     font-size: 1.5rem;
     gap:1.5rem;
@@ -26,9 +26,9 @@
 
 .header-right-icon{
     padding:0.5rem;
-    box-shadow: 2px 2px 5px var(--primary-02);
+    box-shadow: 2px 2px 5px var(--secoundary-07);
     border-radius: 0.4rem;
-    color:var(--secoundary-01);
+    color:var(--secoundary-05);
    
 }
 

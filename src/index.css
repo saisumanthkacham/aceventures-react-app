@@ -19,11 +19,11 @@ code {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-
 }
 
 :root{
-  --primary-01:rgb(94, 91, 91);
+  --primary-font-color:#305a2b ;
+  --primary-01:#305a2b;
   --primary-02:#7ab71f;
   --primary-03:#138176;
   --primary-04:#00A68F;
@@ -31,11 +31,13 @@ body {
   --secoundary-02: #cda076;
   --secoundary-03: #b58761;
   --secoundary-04: #9f7356;
-  --secoundary-05: #c5d32f;
+  --secoundary-05: #c6d51d;
+  --secoundary-07:#dbe940;
   --secoundary-06: #e2b38580;;
   --footer-bg: var(--white-color);
   --dark-gray:#838383;
   --white-color:white;
+  --light-white-color:rgb(219, 249, 213);
 
 }
 
@@ -44,17 +46,16 @@ body {
   font-size: 3rem;
 }
 
-.secoundary-highlight{
-  color:var(--secoundary-01);
-}
+
 .bold-txt{
 font-weight: bold;
 }
 .font-2{
   font-size:2rem;
 }
+
 .secoundary-btn{
-  background-color: var(--secoundary-01);
+  background-color: var(--secoundary-05);
   color:var(--primary-01);
   display:flex;
   gap:1rem;

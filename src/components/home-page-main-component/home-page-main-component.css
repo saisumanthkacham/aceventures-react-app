@@ -2,7 +2,7 @@
 .home-page-main-component-container{
     background-color: var(--primary-01);
     /* padding:1rem; */
-    color:white;
+    color:var(--light-white-color);
     overflow: hidden;
 }
 

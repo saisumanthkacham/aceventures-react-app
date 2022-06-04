@@ -2,7 +2,7 @@
 
 .horizontal-card-container{
     background-color: var(--primary-01);
-    color:black;
+    color:var(--light-white-color);
     overflow: hidden;
   
   
@@ -35,7 +35,7 @@
 }
 
 .card-right-arrow{
-  color:var(--secoundary-01);
+  color:var(--secoundary-05);
 }
 .project-image{
   height: 25rem;
