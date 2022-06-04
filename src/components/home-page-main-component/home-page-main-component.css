@@ -16,4 +16,34 @@
     flex-direction: column;
     text-align: center;
     gap:1rem;
+    align-self: center;
+}
+
+.secoundary-btn{
+    background-color: var(--secoundary-05);
+    color:var(--primary-01);
+    display:flex;
+    gap:1rem;
+    padding:1rem 2rem;
+    border-radius: 2rem;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border:1px solid var(--secoundary-01);
+    margin: 1rem 0;
+  }
+
+@media only screen and (min-width: 800px) {
+
+    .secoundary-btn{
+        padding : 1rem 6rem;
+           width:fit-content;
+
+    }
+    .home-page-main-content-container{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }

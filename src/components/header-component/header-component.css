@@ -4,7 +4,7 @@
     background-color: var(--primary-01);
     display:flex;
     padding:0.5rem;
-    /* border-bottom: 2px solid var(--secoundary-01); */
+    border-bottom: 2px solid var(--secoundary-05);
     position:sticky;
      top:0; 
 }
@@ -26,7 +26,7 @@
 
 .header-right-icon{
     padding:0.5rem;
-    box-shadow: 2px 2px 5px var(--secoundary-07);
+    box-shadow: 1px 1px 5px var(--secoundary-07);
     border-radius: 0.4rem;
     color:var(--secoundary-05);
    

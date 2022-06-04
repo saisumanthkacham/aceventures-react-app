@@ -58,4 +58,22 @@
     gap:0.5rem;
 }
 
+@media only screen and (min-width: 650px) {
+    .footer-container{
+        flex-direction: row;
+        gap:1rem;
+    }
+
+    .footer-image{
+        padding:2rem;
+    }
+    .footer-contact-content,
+    .footer-projects-content,
+    .footer-copyright{
+        width:70%;
+    }
+    .footer-subheading{
+        width:70%;
+    }
+}
 
