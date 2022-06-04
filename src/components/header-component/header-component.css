@@ -10,8 +10,8 @@
 }
 .header-logo{
     margin-right:auto;
-    width: 3rem;
-    height: 3rem;
+    width: 4.2rem;
+    height: 4.2rem;
 }
 
 .header-right-icons-container{
@@ -28,6 +28,7 @@
     padding:0.5rem;
     box-shadow: 2px 2px 5px var(--primary-02);
     border-radius: 0.4rem;
+    color:var(--secoundary-01);
    
 }
 

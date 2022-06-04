@@ -2,7 +2,7 @@
 
 .horizontal-card-container{
     background-color: var(--primary-01);
-    color:white;
+    color:black;
     overflow: hidden;
   
   
@@ -19,8 +19,10 @@
 .horizontal-card-qoute{
   font-weight: 300;
   font-size: 1.5rem;
+  text-align: left;
 }
 .horizontal-card-title{
+  font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
   color:var(--secoundary-05);
 }

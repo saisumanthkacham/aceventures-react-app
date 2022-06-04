@@ -1,7 +1,6 @@
 
 
-.footer-container,
-.footer-terms-of-use-container{
+.footer-container{
     background-color: var(--footer-bg);
     display:flex;
     flex-direction: column;
@@ -10,15 +9,7 @@
     gap:2rem;
    color:var(--primary-01);
 }
-.footer-terms-of-use-container{
-    background-color: var(--secoundary-06);
-    display:flex;
-    text-align: left;
-    
-}
-.footer-terms-of-use-description{
-    padding-left: 0.5rem;
-}
+
 .footer-image{
     align-self: center;
     width:20rem;
@@ -41,10 +32,6 @@
     border-bottom: 1px solid black;
     text-align: left;
     padding:0.8rem 0.2rem;
-}
-
-.footer-terms-subheading{
-    border:none;
 }
 
 .footer-contact-content,

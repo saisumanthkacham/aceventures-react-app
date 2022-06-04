@@ -3,18 +3,6 @@ import logo from "../../images/logoWText.png";
 export default function FooterComponent() {
     return (
         <div>
-            <div className="footer-terms-of-use-container">
-                <div className="footer-terms-subheading"> TERMS OF USE OF WEBSITE </div>{" "}
-                <div className="footer-terms-of-use-description">
-                    By using this website, you agree, confirm and acknowledge that all the
-                    information provided(including any images, brochures, plans etc.) is for
-                    providing a quick and convenient overview of our offerings only.This information
-                    is subject to change from time to time at the sole discretion of Ace
-                    Ventures.You hereby acknowledge that you will not rely solely on the information
-                    provided on this website to make a purchase.Consult all offer documents
-                    available at our sales offices to fully consider your purchase.{" "}
-                </div>{" "}
-            </div>{" "}
             <div className="footer-container">
                 <img className="footer-image" alt="logo" src={logo} />{" "}
                 <div className="footer-contact-container">

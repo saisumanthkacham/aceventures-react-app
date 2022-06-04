@@ -1,7 +1,5 @@
 
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
   margin: 0;
@@ -25,8 +23,8 @@ body {
 }
 
 :root{
-  --primary-01:rgb(44, 44, 44);
-  --primary-02:#126057;
+  --primary-01:rgb(94, 91, 91);
+  --primary-02:#7ab71f;
   --primary-03:#138176;
   --primary-04:#00A68F;
   --secoundary-01: #86bc34;
@@ -35,8 +33,9 @@ body {
   --secoundary-04: #9f7356;
   --secoundary-05: #c5d32f;
   --secoundary-06: #e2b38580;;
-  --footer-bg: white;
+  --footer-bg: var(--white-color);
   --dark-gray:#838383;
+  --white-color:white;
 
 }
 
