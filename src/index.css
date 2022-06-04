@@ -25,17 +25,17 @@ body {
 }
 
 :root{
-  --primary-01:#003D39;
+  --primary-01:rgb(44, 44, 44);
   --primary-02:#126057;
   --primary-03:#138176;
   --primary-04:#00A68F;
-  --secoundary-01: #e4b587;
+  --secoundary-01: #86bc34;
   --secoundary-02: #cda076;
   --secoundary-03: #b58761;
   --secoundary-04: #9f7356;
-  --secoundary-05: #DEB083;
+  --secoundary-05: #c5d32f;
   --secoundary-06: #e2b38580;;
-  --footer-bg: #E2B385;
+  --footer-bg: white;
   --dark-gray:#838383;
 
 }
