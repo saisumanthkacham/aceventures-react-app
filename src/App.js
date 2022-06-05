@@ -39,7 +39,7 @@ function App() {
                 title="Master Plan"
                 loc="plot details"
                 img={planImg}
-                height="10rem"
+                height="11.5rem"
             />
 
             <HorizontalCard title="Arial View" loc="Golden Heights" />
