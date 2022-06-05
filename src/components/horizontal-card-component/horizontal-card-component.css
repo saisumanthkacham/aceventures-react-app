@@ -1,8 +1,8 @@
 
 
 .horizontal-card-container{
-    background-color: var(--primary-01);
-    color:var(--light-white-color);
+    background-color: white;
+    color:var(--primary-font-color);
     overflow: hidden;
   
   
@@ -20,11 +20,12 @@
   font-weight: 300;
   font-size: 1.5rem;
   text-align: left;
+  
 }
 .horizontal-card-title{
-  font-family: 'Playfair Display', serif;
+  font-weight: bold;
   font-size: 2.5rem;
-  color:var(--secoundary-05);
+  color:var(--primary-font-color);
 }
 
 
@@ -35,13 +36,26 @@
 }
 
 .card-right-arrow{
-  color:var(--secoundary-05);
+  color:var(--primary-font-color);
 }
 .project-image{
-  height: 25rem;
+  height: 13.3rem;
     
 }
 .Horizontal-card-white-space{
   height:4rem;
   background-color: white;
+}
+
+@media only screen and (min-width: 800px) {
+  
+  .horizontal-img-container{
+    display: flex;
+    justify-content:center;
+  }
+
+  .img2{
+    margin-left: 2rem;
+  }
+
 }

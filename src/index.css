@@ -43,7 +43,7 @@ body {
 
 .primary-highlight{
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 
@@ -54,17 +54,3 @@ font-weight: bold;
   font-size:2rem;
 }
 
-.secoundary-btn{
-  background-color: var(--secoundary-05);
-  color:var(--primary-01);
-  display:flex;
-  gap:1rem;
-  padding:1rem 2rem;
-  border-radius: 2rem;
-  font-size: larger;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  border:1px solid var(--secoundary-01);
-  margin: 1rem 0;
-}

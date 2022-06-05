@@ -3,19 +3,40 @@ import { faPhone, faBars, faLocationDot } from "@fortawesome/free-solid-svg-icon
 // import {faPhone,faBars} from "@fortawesome/free-regular-svg-icons"
 import "../header-component/header-component.css";
 import logo from "../../images/logo.png";
+import { useEffect, useState } from "react";
 
 export default function HeaderComponent() {
-    const locationLink="https://app.lapentor.com/sphere/golden-heights-aerial?scene=629340da6d91ccc868034b6a"
+    const [screen,setScreen]=useState(0)
+    let resizeWindow = () => {
+       setScreen(window.innerWidth);
+        
+      };
+    useEffect(()=>{
+        resizeWindow();
+        window.addEventListener("resize", resizeWindow);
+        return () => window.removeEventListener("resize", resizeWindow);
+    },[])
+    
+    const locationLink =
+        "https://app.lapentor.com/sphere/golden-heights-aerial?scene=629340da6d91ccc868034b6a";
     return (
         <div className="header-container">
-            <img alt="logo" src={logo} className="header-logo">
-            </img>
-            
+            <img alt="logo" src={logo} className="header-logo"></img>
+
             <div className="header-right-icons-container">
-            <a href="tel:[9494256257]" className="header-icon-phone header-right-icon"  ><FontAwesomeIcon icon={faPhone} >
-                </FontAwesomeIcon></a>
-            <a href={locationLink} className="header-right-icon "  ><FontAwesomeIcon icon={faLocationDot} >
-                </FontAwesomeIcon></a>
+                {screen > 480 ? (
+                    <div className="header-icon-phone header-right-icon">
+                        <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> 9494256257
+                    </div>
+                ) : (
+                    <a href="tel:[9494256257]" className="header-icon-phone header-right-icon">
+                        <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>{" "}
+                    </a>
+                )}
+
+                <a href={locationLink} className="header-right-icon ">
+                    <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
+                </a>
             </div>
         </div>
     );

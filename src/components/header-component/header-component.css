@@ -1,7 +1,7 @@
 
 
 .header-container{
-    background-color: var(--primary-01);
+    background-color: white;
     display:flex;
     padding:0.5rem;
     border-bottom: 2px solid var(--secoundary-05);
@@ -26,9 +26,9 @@
 
 .header-right-icon{
     padding:0.5rem;
-    box-shadow: 1px 1px 5px var(--secoundary-07);
+    box-shadow: 1px 1px 5px var(--primary-01);
     border-radius: 0.4rem;
-    color:var(--secoundary-05);
+    color:var(--primary-01);
    
 }
 

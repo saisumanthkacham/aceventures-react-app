@@ -5,29 +5,49 @@ import HorizontalCard from "../src/components/horizontal-card-component/Horizont
 import VerticalCard from "../src/components/vertical-card-component/vertical-card-component";
 import TextOnlyCard from "./components/text-only-card-component/TextOnlyCardComponent";
 import HomePageMain from "./components/home-page-main-component/HomePageMainComponent";
-import aashayaImg from "../src/images/2.png";
-import jpMallImg from "../src/images/3.png";
-import projectImg from "../src/images/1.png";
-import ajantaImg from "../src/images/4.png";
-
+import homeImg from "../src/images/Render.png";
+import projectImg from "../src/images/building3.png";
+import clubHouseImg2 from "../src/images/clubhouse2.png";
+import clubHouseImg from "../src/images/club-house.png";
+import bhk2Img from "../src/images/2bhk.png";
+import bhk3Img from "../src/images/3bhk.png";
 function App() {
     return (
         <div className="App">
             <Header />
             <HomePageMain />
-            <TextOnlyCard />
-            <HorizontalCard title="AALAYA" loc="Warangal-Hyderabad Highway." img={projectImg} />
-            <VerticalCard
-                title="AASHAYA"
-                description=" Commercial Development on Hyderabad-Warangal Highway"
-                img={aashayaImg}
+            {/* <TextOnlyCard /> */}
+            <HorizontalCard
+                title="Golden Heights"
+                loc="Hyderabad-Karimnagar Highway."
+                img={homeImg}
+                img2={projectImg}
             />
-            <VerticalCard
-                title="JP MALL"
-                description=" Commercial Development on Chaitanyapuri Metro,Kothapet"
-                img={jpMallImg}
+
+            <HorizontalCard
+                title="Amenities"
+                loc="Club House"
+                img={clubHouseImg}
+                img2={clubHouseImg2}
             />
-            <HorizontalCard title="AJANTA" loc="Nagole- 7 min from Nagole Metro" img={ajantaImg} />
+
+            <HorizontalCard
+                title="Floor Plans"
+                loc="Two and Three BHK"
+                img={bhk2Img}
+                img2={bhk3Img}
+            />
+
+            {/* <img src={clubHouseImg} alt="amura image" className="amura-img" /> */}
+            <HorizontalCard title="Arial View" loc="Golden Heights" />
+            <iframe
+                src="https://app.lapentor.com/sphere/golden-heights-aerial?scene=629340da6d91ccc868034b6a"
+                title="ArielView"
+                width="373"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen></iframe>
+
             <Footer />
         </div>
     );
