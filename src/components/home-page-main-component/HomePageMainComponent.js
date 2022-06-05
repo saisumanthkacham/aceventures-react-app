@@ -10,7 +10,7 @@ export default function HomePageMainComponent() {
                 
                 <div className="secoundary-highlight bold-txt font-2">Luxury Apartments </div>{" "}
                 <div className="home-page-main-description">
-                    Awsome 2 BHK Flats.{" "}
+                    Awsome 2 BHK Flats,{" "}
                     Starting @ 35 Laks Only /- 
                     Near Shamirpet ORR EXIT-7
                 </div>
