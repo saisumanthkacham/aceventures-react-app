@@ -15,14 +15,17 @@ export default function FooterComponent() {
                         </div>{" "}
                     </div>{" "}
                 </div>{" "}
-               <div className="footer-copyright">
-                <div className="footer-subheading"> ABOUT US </div>
-                <div className="footer-subheading-content" >VB GREEN INDIA INFRA is a leading Realestate Company in South India Striving for Quality and Perfection to Provide you with the best luxurious and affordable Residential and Commercial Projects.</div>
-               </div>
-                
+                <div className="footer-copyright">
+                    <div className="footer-subheading"> ABOUT US </div>
+                    <div className="footer-subheading-content">
+                        VB GREEN INDIA INFRA is a leading Realestate Company in South India Striving
+                        for Quality and Perfection to Provide you with the best luxurious and
+                        affordable Residential and Commercial Projects.
+                    </div>
+                </div>
                 <div className="footer-copyright">
                     <div className="footer-subheading"> Copyright </div>{" "}
-                    <div> All rights reserved to VB Green India Infra Pvt Ltd  </div>{" "}
+                    <div> All rights reserved to VB Green India Infra Pvt Ltd </div>{" "}
                 </div>{" "}
             </div>{" "}
         </div>

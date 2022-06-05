@@ -7,19 +7,14 @@ export default function HomePageMainComponent() {
         <div className="home-page-main-component-container">
             <img src={amuraImg} alt="amura image" className="amura-img" />
             <div className="home-page-main-content-container">
-                
                 <div className="secoundary-highlight bold-txt font-2">Luxury Apartments </div>{" "}
                 <div className="home-page-main-description">
-                    Awsome 2 BHK Flats,{" "}
-                    Starting @ 35 Laks Only /- 
-                    Near Shamirpet ORR EXIT-7
+                    Awsome 2 BHK Flats, Starting @ 35 Laks Only /- Near Shamirpet ORR EXIT-7
                 </div>
                 <a href="#Floor Plans" className="secoundary-btn">
-                  Explore Floor Plans<FontAwesomeIcon icon={faArrowRightLong}> </FontAwesomeIcon>{" "}
+                    Explore Floor Plans<FontAwesomeIcon icon={faArrowRightLong}> </FontAwesomeIcon>{" "}
                 </a>{" "}
             </div>{" "}
-            
-            
         </div>
     );
 }

@@ -7,19 +7,34 @@ export default function HorizontalCardComponent(props) {
             {props.title && (
                 <div className="horizontal-card-content">
                     <div className="horizontal-card-title">{props.title}</div>
-                    {props.loc &&<div className="horizontal-card-location-container">
-                        <div className="horizontal-card-location">{props.loc}</div>
-                        <FontAwesomeIcon
-                            icon={faArrowRightLong}
-                            className="card-right-arrow"></FontAwesomeIcon>
-                    </div>}
+                    {props.loc && (
+                        <div className="horizontal-card-location-container">
+                            <div className="horizontal-card-location">{props.loc}</div>
+                            <FontAwesomeIcon
+                                icon={faArrowRightLong}
+                                className="card-right-arrow"></FontAwesomeIcon>
+                        </div>
+                    )}
                 </div>
             )}
-          <div className="horizontal-img-container">
-          {props.img &&<img src={props.img} style={{height:props.height}} alt="project image" class="project-image " />}
-            {props.img2 &&<img src={props.img2} style={{height:props.height2}} alt="project image" class="project-image img2" />}
-          </div>
-       
+            <div className="horizontal-img-container">
+                {props.img && (
+                    <img
+                        src={props.img}
+                        style={{ height: props.height }}
+                        alt="project image"
+                        class="project-image "
+                    />
+                )}
+                {props.img2 && (
+                    <img
+                        src={props.img2}
+                        style={{ height: props.height2 }}
+                        alt="project image"
+                        class="project-image img2"
+                    />
+                )}
+            </div>
         </div>
     );
 }

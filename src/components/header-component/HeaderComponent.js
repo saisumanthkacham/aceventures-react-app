@@ -6,17 +6,16 @@ import logo from "../../images/logo.png";
 import { useEffect, useState } from "react";
 
 export default function HeaderComponent() {
-    const [screen,setScreen]=useState(0)
+    const [screen, setScreen] = useState(0);
     let resizeWindow = () => {
-       setScreen(window.innerWidth);
-        
-      };
-    useEffect(()=>{
+        setScreen(window.innerWidth);
+    };
+    useEffect(() => {
         resizeWindow();
         window.addEventListener("resize", resizeWindow);
         return () => window.removeEventListener("resize", resizeWindow);
-    },[])
-    
+    }, []);
+
     const locationLink =
         "https://app.lapentor.com/sphere/golden-heights-aerial?scene=629340da6d91ccc868034b6a";
     return (
