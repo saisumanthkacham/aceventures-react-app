@@ -37,7 +37,6 @@ function App() {
             />
      <HorizontalCard
                 title="Master Plan"
-                loc="plot details"
                 img={planImg}
                 height="11.5rem"
             />
