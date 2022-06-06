@@ -24,7 +24,7 @@ export default function HeaderComponent() {
             <div className="header-right-icons-container">
                 {screen > 480 ? (
                     <div className="header-icon-phone header-right-icon">
-                        <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> 9494256257
+                        <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> +919494256257
                     </div>
                 ) : (
                     <a href="tel:[9494256257]" className="header-icon-phone header-right-icon">
