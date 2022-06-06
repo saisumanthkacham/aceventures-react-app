@@ -5,6 +5,6 @@ export const IFrame=(props)=>{
         className="iFrame"
         src={props.src}
         title={props.title}
-        height={window.innerWidth>800?"650":"250"}
+        height={window.innerWidth>800?"700":"250"}
         allowFullScreen ></iframe>)
 }
