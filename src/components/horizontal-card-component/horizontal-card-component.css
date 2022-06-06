@@ -54,8 +54,20 @@
     justify-content:center;
   }
 
+  .project-image{
+    width: 50rem;
+   height: 35rem;
+  }
+
+
   .img2{
-    margin-left: 2rem;
+    margin-left: 1rem;
+  }
+
+  .img3{
+    height:50rem;
+    width: 100%;
+    
   }
 
 }

@@ -20,18 +20,27 @@ export default function HorizontalCardComponent(props) {
             <div className="horizontal-img-container">
                 {props.img && (
                     <img
+                        className="project-image "
                         src={props.img}
                         style={{ height: props.height }}
                         alt="project image"
-                        class="project-image "
                     />
                 )}
                 {props.img2 && (
                     <img
+                        className="project-image img2"
                         src={props.img2}
                         style={{ height: props.height2 }}
                         alt="project image"
-                        class="project-image img2"
+                    />
+                )}
+
+                {props.img3 && (
+                    <img
+                        className="project-image img3"
+                        src={props.img3}
+                        style={{ height: props.height3 }}
+                        alt="project image"
                     />
                 )}
             </div>

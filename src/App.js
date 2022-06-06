@@ -9,7 +9,8 @@ import clubHouseImg2 from "../src/images/clubhouse2.png";
 import clubHouseImg from "../src/images/club-house.png";
 import bhk2Img from "../src/images/2bhk.png";
 import bhk3Img from "../src/images/3bhk.png";
-import planImg from "../src/images/master-plan.png"
+import planImg from "../src/images/master-plan.png";
+import { IFrame } from "./components/iFrame-component/iFrameComponent";
 function App() {
     return (
         <div className="App">
@@ -35,20 +36,14 @@ function App() {
                 img={bhk2Img}
                 img2={bhk3Img}
             />
-     <HorizontalCard
-                title="Master Plan"
-                img={planImg}
-                height="11.5rem"
-            />
+            <HorizontalCard title="Master Plan" img3={planImg} height="11.5rem" />
 
             <HorizontalCard title="Arial View" loc="Golden Heights" />
-            <iframe
+
+            <IFrame
                 src="https://app.lapentor.com/sphere/golden-heights-aerial?scene=629340da6d91ccc868034b6a"
                 title="ArielView"
-                width="373"
-                height="350"
-                style={{ border: 0 }}
-                allowFullScreen></iframe>
+            />
 
             <Footer />
         </div>

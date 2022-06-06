@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faBars, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-// import {faPhone,faBars} from "@fortawesome/free-regular-svg-icons"
+import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import "../header-component/header-component.css";
 import logo from "../../images/logo.png";
 import { useEffect, useState } from "react";
