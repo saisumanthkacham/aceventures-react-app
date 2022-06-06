@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import "../header-component/header-component.css";
-import logo from "../../images/logo.png";
+import logo from "../../images/HEADEWR.png";
 import { useEffect, useState } from "react";
 
 export default function HeaderComponent() {
