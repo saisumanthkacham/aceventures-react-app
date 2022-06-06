@@ -43,6 +43,25 @@ export default function HorizontalCardComponent(props) {
                         alt="project image"
                     />
                 )}
+                <div className="project-image-beside-container">
+                    {props.img4 && (
+                        <img
+                            className="project-image-beside"
+                            src={props.img4}
+                            style={{ height: props.height4 }}
+                            alt="project image"
+                        />
+                    )}
+
+                    {props.img5 && (
+                        <img
+                            className="project-image-beside"
+                            src={props.img5}
+                            style={{ height: props.height5 }}
+                            alt="project image"
+                        />
+                    )}
+                </div>
             </div>
         </div>
     );

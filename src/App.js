@@ -33,8 +33,8 @@ function App() {
             <HorizontalCard
                 title="Floor Plans"
                 loc="Two and Three BHK"
-                img={bhk2Img}
-                img2={bhk3Img}
+                img4={bhk2Img}
+                img5={bhk3Img}
             />
             <HorizontalCard title="Master Plan" img3={planImg} height="11.5rem" />
 
