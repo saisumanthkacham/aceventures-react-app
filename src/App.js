@@ -36,10 +36,12 @@ function App() {
                 img={clubHouseImg}
                 img2={clubHouseImg2}
             />
-<img className="ameneties-img" src={amenetiesImg1}/>
+            <br/><br/>
+            <img className="ameneties-img" src={amenetiesImg1}/>
             <img className="ameneties-img" src={amenetiesImg2}/>
             <img className="ameneties-img" src={amenetiesImg3}/>
             <img className="ameneties-img" src={amenetiesImg4}/>
+
             <HorizontalCard
                 title="Floor Plans"
                 loc="Two and Three BHK"
