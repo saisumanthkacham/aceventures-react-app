@@ -12,6 +12,12 @@ import bhk3Img from "../src/images/3bhk.png";
 import planImg from "../src/images/master-plan.png";
 import { IFrame } from "./components/iFrame-component/iFrameComponent";
 import { IFrameMap } from "./components/iFrame-map-component/iFrameMapComponent";
+import amenetiesImg1 from "../src/images/amenetiesImg1.png"
+import amenetiesImg2 from "../src/images/amenetiesImg2.png"
+import amenetiesImg3 from "../src/images/amenetiesImg3.png"
+import amenetiesImg4 from "../src/images/amenetiesImg4.png"
+
+
 function App() {
     return (
         <div className="App">
@@ -30,7 +36,10 @@ function App() {
                 img={clubHouseImg}
                 img2={clubHouseImg2}
             />
-
+<img className="ameneties-img" src={amenetiesImg1}/>
+            <img className="ameneties-img" src={amenetiesImg2}/>
+            <img className="ameneties-img" src={amenetiesImg3}/>
+            <img className="ameneties-img" src={amenetiesImg4}/>
             <HorizontalCard
                 title="Floor Plans"
                 loc="Two and Three BHK"
@@ -45,6 +54,10 @@ function App() {
             />
 
             <HorizontalCard title="Master Plan" img3={planImg} height="11.5rem" />
+            
+            <div>
+            
+            </div>
 
             <HorizontalCard title="Location" loc="Golden Heights" />
             <IFrameMap
