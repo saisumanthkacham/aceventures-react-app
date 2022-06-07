@@ -5,7 +5,7 @@ export const IFrameMap=(props)=>{
         className="iFrameMap"
         src={props.src}
         title={props.title}
-        height={window.innerWidth>800?"700":"150"}
+        height={window.innerWidth>800?"700":"250"}
         frameBorder="0"
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"/>)
