@@ -11,6 +11,7 @@ import bhk2Img from "../src/images/2bhk.png";
 import bhk3Img from "../src/images/3bhk.png";
 import planImg from "../src/images/master-plan.png";
 import { IFrame } from "./components/iFrame-component/iFrameComponent";
+import { IFrameMap } from "./components/iFrame-map-component/iFrameMapComponent";
 function App() {
     return (
         <div className="App">
@@ -36,14 +37,21 @@ function App() {
                 img4={bhk2Img}
                 img5={bhk3Img}
             />
-            <HorizontalCard title="Master Plan" img3={planImg} height="11.5rem" />
 
             <HorizontalCard title="Arial View" loc="Golden Heights" />
-
             <IFrame
                 src="https://app.lapentor.com/sphere/golden-heights-aerial?scene=629340da6d91ccc868034b6a"
                 title="ArielView"
             />
+
+            <HorizontalCard title="Master Plan" img3={planImg} height="11.5rem" />
+
+            <HorizontalCard title="Location" loc="Golden Heights" />
+            <IFrameMap
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15055.81763540025!2d78.57273191683123!3d17.588521214639215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1242943a8151f509!2zMTfCsDM1JzE4LjEiTiA3OMKwMzQnMzAuMCJF!5e1!3m2!1sen!2sin!4v1654626819021!5m2!1sen!2sin"
+                title="google map"
+            />
+           
 
             <Footer />
         </div>
