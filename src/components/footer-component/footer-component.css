@@ -28,7 +28,7 @@
     color:var(--primary-01);
     font-size: 1.5rem;
     font-weight: 550;
-    width:100%;
+    width:100vw;
     border-bottom: 1px solid black;
     text-align: left;
     padding:0.8rem 0.2rem;

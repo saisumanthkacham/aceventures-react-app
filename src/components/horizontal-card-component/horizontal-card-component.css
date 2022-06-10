@@ -93,7 +93,11 @@
     height:50rem;
     width: 100%;
   }
-
+  .img4{
+    height:37.5rem;
+    padding-top: 1.5rem;
+  }
+ 
   .img2{
     margin-top: 2rem;
   }
